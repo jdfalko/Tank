@@ -4,7 +4,7 @@
 
 Intuit Tank is a load test platform that runs in a cloud environment. It currently supports Amazon web interfaces and utilizes services from EC2, S3, and DynamoDb.
 
-Intuit Tank has two main components: A controller and agents.
+Intuit Tank has two main components: a controller and agents.
 
 The Controller is the central hub in the deployment. It supports the GUI for managing tests and for orchestrating. It utilizes Tomcat 6x for a web container and communicates with the agents via http. 
 It exposes a RESTful interface for invoking services. Data is stored in a MySql database, on the file system, and in DynamoDb.
@@ -37,7 +37,7 @@ in the root of the distribution. You can use this version for small tests to try
 it for large scale or production testing.
 
 ## Guides
-Installation guide and User guide can be found in the docs folder and are built with the source. and can also be found on our [wiki](https://github.com/intuit/Tank/wiki).
+Installation guide and User guide can be found in the docs folder and are built with the source, and can also be found on our [wiki](https://github.com/intuit/Tank/wiki).
 
 ## Issues & Contributions
 Please [open an issue here on GitHub](https://github.com/intuit/tank/issues/new) if you have a problem, suggestion, or other comment.
